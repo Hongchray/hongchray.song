@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "profile": "Profile",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "whoami",
+    "role": "Full-Stack Developer",
+    "location": "Phnom Penh, Cambodia",
+    "tagline": "I build fast, maintainable web apps with Laravel, Vue.js and Next.js — from database schema to pixel-perfect UI.",
+    "cta_primary": "View work",
+    "cta_secondary": "Contact me",
+    "status": "Open to new opportunities",
+    "download_cv": "Download CV"
+  },
+  "profile": {
+    "eyebrow": "// profile.txt",
+    "title": "Profile",
+    "languages": "Languages"
+  },
+  "experience": {
+    "eyebrow": "// git log --experience",
+    "title": "Work Experience",
+    "present": "Present"
+  },
+  "education": {
+    "title": "Education"
+  },
+  "skills": {
+    "eyebrow": "// skills.json",
+    "title": "Skills & Stack",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "tools": "Tools & Workflow",
+      "soft": "Soft Skills"
+    }
+  },
+  "projects": {
+    "eyebrow": "// ls ./projects",
+    "title": "Projects",
+    "view": "View project",
+    "code": "Source",
+    "placeholder_note": "Projects I have contributed to."
+  },
+  "testimonials": {
+    "eyebrow": "// pull requests reviewed",
+    "title": "Testimonials",
+    "placeholder_note": "Sample quotes — replace with feedback from real clients or teammates."
+  },
+  "blog": {
+    "eyebrow": "// git log --blog",
+    "title": "Writing",
+    "read": "Read post",
+    "placeholder_note": "Sample posts — connect a real CMS or replace with your own writing."
+  },
+  "contact": {
+    "eyebrow": "// contact.sh",
+    "title": "Get in touch",
+    "subtitle": "Have a project in mind or just want to say hello? My inbox is open.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "sent": "Message sent — thank you!",
+    "direct_title": "Direct contact",
+    "phone": "Phone",
+    "address": "Address",
+    "reference_title": "Reference",
+    "connect_title": "Connect",
+    "form_note": "This form is a UI demo — connect it to an email service or API route to actually receive messages."
+  },
+  "footer": {
+    "built_with": "Built with Next.js & Tailwind CSS",
+    "rights": "All rights reserved."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "download_cv": "Download CV"
+}

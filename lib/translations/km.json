@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "profile": "ប្រវត្តិរូប",
+    "experience": "បទពិសោធន៍ការងារ",
+    "skills": "ជំនាញ",
+    "projects": "គម្រោង",
+    "testimonials": "មតិយោបល់",
+    "blog": "ប្លុក",
+    "contact": "ទំនាក់ទំនង"
+  },
+  "hero": {
+    "greeting": "អ្នកណាខ្ញុំ",
+    "role": "អ្នកអភិវឌ្ឍន៍គេហទំព័រ",
+    "location": "ភ្នំពេញ កម្ពុជា",
+    "tagline": "ខ្ញុំជាអ្នកបង្កើតគេហទំព័រដែលមានល្បឿនលឿន និងងាយស្រួលថែទាំ ដោយប្រើ Laravel, Vue.js និង Next.js — ចាប់ពីរចនាសម្ព័ន្ធមូលដ្ឋានទិន្នន័យ រហូតដល់ចំណុចប្រទាក់អ្នកប្រើប្រាស់ដ៏ល្អឥតខ្ចោះ។",
+    "cta_primary": "មើលគម្រោង",
+    "cta_secondary": "ទាក់ទងខ្ញុំ",
+    "status": "កំពុងស្វែងរកឱកាសការងារថ្មី",
+    "download_cv": "ទាញយក CV"
+  },
+  "profile": {
+    "eyebrow": "// profile.txt",
+    "title": "ប្រវត្តិរូបសង្ខេប",
+    "languages": "ភាសា"
+  },
+  "experience": {
+    "eyebrow": "// git log --experience",
+    "title": "បទពិសោធន៍ការងារ",
+    "present": "បច្ចុប្បន្ន"
+  },
+  "education": {
+    "title": "ការសិក្សា"
+  },
+  "skills": {
+    "eyebrow": "// skills.json",
+    "title": "ជំនាញ និងបច្ចេកវិទ្យា",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "មូលដ្ឋានទិន្នន័យ",
+      "tools": "ឧបករណ៍ និងលំហូរការងារ",
+      "soft": "ជំនាញទន់"
+    }
+  },
+  "projects": {
+    "eyebrow": "// ls ./projects",
+    "title": "គម្រោង",
+    "view": "មើលគម្រោង",
+    "code": "កូដ",
+    "placeholder_note": "គម្រោងដែលខ្ញុំបានចូលរួមអភិវឌ្ឍន៍។"
+  },
+  "testimonials": {
+    "eyebrow": "// pull requests reviewed",
+    "title": "មតិយោបល់",
+    "placeholder_note": "សម្រង់គំរូ — សូមជំនួសដោយមតិពិតប្រាកដពីអតិថិជន ឬសហការី។"
+  },
+  "blog": {
+    "eyebrow": "// git log --blog",
+    "title": "អត្ថបទ",
+    "read": "អានបន្ថែម",
+    "placeholder_note": "អត្ថបទគំរូ — សូមភ្ជាប់ប្រព័ន្ធ CMS ពិតប្រាកដ ឬជំនួសដោយអត្ថបទផ្ទាល់ខ្លួនរបស់អ្នក។"
+  },
+  "contact": {
+    "eyebrow": "// contact.sh",
+    "title": "ទាក់ទងមកខ្ញុំ",
+    "subtitle": "មានគម្រោងក្នុងចិត្ត ឬគ្រាន់តែចង់ជំរាបសួរ? ប្រអប់សាររបស់ខ្ញុំតែងតែបើកចំហ។",
+    "name": "ឈ្មោះ",
+    "email": "អ៊ីមែល",
+    "message": "សារ",
+    "send": "ផ្ញើសារ",
+    "sent": "សារត្រូវបានផ្ញើដោយជោគជ័យ — សូមអរគុណ!",
+    "direct_title": "ទំនាក់ទំនងផ្ទាល់",
+    "phone": "ទូរស័ព្ទ",
+    "address": "អាសយដ្ឋាន",
+    "reference_title": "អ្នកយោង",
+    "connect_title": "ភ្ជាប់ទំនាក់ទំនង",
+    "form_note": "ទម្រង់នេះគឺជាការបង្ហាញចំណុចប្រទាក់ — សូមភ្ជាប់ទៅសេវាកម្មអ៊ីមែល ឬ API route ដើម្បីទទួលសារពិតប្រាកដ។"
+  },
+  "footer": {
+    "built_with": "បង្កើតដោយ Next.js និង Tailwind CSS",
+    "rights": "រក្សាសិទ្ធិគ្រប់យ៉ាង។"
+  },
+  "theme": {
+    "light": "ភ្លឺ",
+    "dark": "ងងឹត"
+  },
+  "download_cv": "ទាញយក CV"
+}

@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0e14;
+  --surface: #10141d;
+  --surface-2: #171d29;
+  --border: #232b38;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --accent: #5eead4;
+  --accent-2: #f0b429;
+  --danger: #f87171;
+}
+
+html.light {
+  --bg: #f6f8fa;
+  --surface: #ffffff;
+  --surface-2: #eef1f4;
+  --border: #d7dee4;
+  --text: #1f2328;
+  --muted: #57606a;
+  --accent: #0f766e;
+  --accent-2: #b45309;
+  --danger: #cf222e;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/*
+ * When the site is switched to Khmer, every heading/body element renders in
+ * the fixed Khmer font (Siemreap) instead of the Latin display/body fonts.
+ * `.font-mono` elements (terminal chrome, file-tab labels like
+ * "profile.tsx", commit hashes) are excluded on purpose — that "code" UI
+ * stays in the monospace font regardless of language, the same way a real
+ * code editor's file names don't get translated.
+ */
+html[lang="km"] :is(h1, h2, h3, h4, h5, h6, p, span, a, li, label, dt, dd, button, input, textarea):not(.font-mono, .font-mono *) {
+  font-family: var(--font-khmer), sans-serif;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: var(--bg);
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* utility: dotted grid backdrop for hero/sections */
+.bg-dot-grid {
+  background-image: radial-gradient(var(--border) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.terminal-cursor::after {
+  content: "";
+  display: inline-block;
+  width: 0.55ch;
+  height: 1em;
+  background: var(--accent);
+  margin-left: 4px;
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+}
+
+.text-glow {
+  text-shadow: 0 0 24px color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
