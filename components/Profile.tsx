@@ -1,14 +1,12 @@
 "use client";
 
-import { motion } from "framer-motion";
-
+import { motion, type Variants } from "framer-motion";
 import { useLang } from "@/context/LangContext";
 import { profile, languages, softSkills } from "@/lib/data";
-import TerminalPrompt from "@/components/TerminalPrompt";
 export default function Profile() {
   const { t, pick } = useLang();
 
-  const sectionVariants = {
+  const sectionVariants: Variants = {
     hidden: {
       opacity: 0,
       y: 60,
@@ -24,7 +22,7 @@ export default function Profile() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: {
       opacity: 0,
       y: 35,
@@ -39,7 +37,7 @@ export default function Profile() {
     },
   };
 
-  const cardVariants = {
+  const cardVariants: Variants = {
     hidden: {
       opacity: 0,
       y: 40,
@@ -56,7 +54,7 @@ export default function Profile() {
     },
   };
 
-  const badgeVariants = {
+  const badgeVariants: Variants = {
     hidden: {
       opacity: 0,
       scale: 0.8,
@@ -73,7 +71,7 @@ export default function Profile() {
     },
   };
 
-  const languageVariants = {
+  const languageVariants: Variants = {
     hidden: {
       opacity: 0,
       x: 20,

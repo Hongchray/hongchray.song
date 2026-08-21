@@ -2,8 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
-import { motion } from "framer-motion";
-
+import { motion, type Variants } from "framer-motion";
 import { useLang } from "@/context/LangContext";
 import { personal } from "@/lib/data";
 
@@ -165,23 +164,24 @@ export default function Hero() {
    * whileInView will trigger the animation every time
    * the section enters the viewport.
    */
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: {
       opacity: 0,
-      y: 60,
+      y: 30,
     },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
         duration: 0.8,
-        ease: [0.22, 1, 0.36, 1],
-        staggerChildren: 0.12,
+        ease: [0.22, 1, 0.36, 1] as const,
+        staggerChildren: 0.15,
       },
     },
   };
 
-  const itemVariants = {
+
+  const itemVariants: Variants = {
     hidden: {
       opacity: 0,
       y: 35,
@@ -196,7 +196,7 @@ export default function Hero() {
     },
   };
 
-  const terminalVariants = {
+  const terminalVariants: Variants = {
     hidden: {
       opacity: 0,
       y: 45,
@@ -213,7 +213,7 @@ export default function Hero() {
     },
   };
 
-  const profileVariants = {
+  const profileVariants: Variants = {
     hidden: {
       opacity: 0,
       y: 60,

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants, type Variant } from "framer-motion";
 
 import { useLang } from "@/context/LangContext";
 import { skillGroups } from "@/lib/data";
@@ -8,7 +8,7 @@ import { skillGroups } from "@/lib/data";
 export default function Skills() {
   const { t } = useLang();
 
-  const sectionVariants = {
+  const sectionVariants: Variants = {
     hidden: {
       opacity: 0,
       y: 60,
@@ -24,7 +24,7 @@ export default function Skills() {
     },
   };
 
-  const headingVariants = {
+  const headingVariants: Variants = {
     hidden: {
       opacity: 0,
       y: 25,
@@ -39,7 +39,7 @@ export default function Skills() {
     },
   };
 
-  const terminalVariants = {
+  const terminalVariants: Variants = {
     hidden: {
       opacity: 0,
       y: 50,
@@ -56,7 +56,7 @@ export default function Skills() {
     },
   };
 
-  const categoryVariants = {
+  const categoryVariants: Variants = {
     hidden: {
       opacity: 0,
       y: 25,
@@ -71,7 +71,7 @@ export default function Skills() {
     },
   };
 
-  const skillVariants = {
+  const skillVariants: Variants = {
     hidden: {
       opacity: 0,
       x: -12,
