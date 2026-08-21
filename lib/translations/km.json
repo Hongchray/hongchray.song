@@ -1,12 +1,12 @@
 {
+  
   "nav": {
     "profile": "ប្រវត្តិរូប",
-    "experience": "បទពិសោធន៍ការងារ",
+    "experience": "បទពិសោធន៍",
     "skills": "ជំនាញ",
     "projects": "គម្រោង",
-    "testimonials": "មតិយោបល់",
-    "blog": "ប្លុក",
     "contact": "ទំនាក់ទំនង"
+  
   },
   "hero": {
     "greeting": "អ្នកណាខ្ញុំ",

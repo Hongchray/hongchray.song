@@ -1,11 +1,9 @@
 {
-  "nav": {
+"nav": {
     "profile": "Profile",
     "experience": "Experience",
     "skills": "Skills",
     "projects": "Projects",
-    "testimonials": "Testimonials",
-    "blog": "Blog",
     "contact": "Contact"
   },
   "hero": {

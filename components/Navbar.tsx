@@ -7,11 +7,11 @@ import { useLang } from "@/context/LangContext";
 import { personal } from "@/lib/data";
 
 const NAV_ITEMS = [
-  { id: "profile", file: "Profile" },
-  { id: "experience", file: "Experience" },
-  { id: "skills", file: "Skills" },
-  { id: "projects", file: "Projects" },
-  { id: "contact", file: "Contact" },
+  { id: "profile" },
+  { id: "experience" },
+  { id: "skills" },
+  { id: "projects" },
+  { id: "contact" },
 ];
 
 const GOLD = "text-yellow-500";
@@ -142,7 +142,7 @@ export default function Navbar() {
                   }
                 `}
               >
-                {item.file}
+                {t(`nav.${item.id}`)}
 
                 {/* Active underline */}
                 <span
@@ -247,7 +247,7 @@ export default function Navbar() {
                     }
                   `}
                 >
-                  {item.file}
+                  {t(`nav.${item.id}`)}
 
                   <span className="ml-2 text-[11px] text-muted">
                     {t(`nav.${item.id}`)}
