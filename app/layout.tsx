@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { fontVariables } from "@/lib/fonts";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { LangProvider } from "@/context/LangContext";
-// @ts-expect-error Next.js handles global CSS imports at build time.
 import "./globals.css";
 export const metadata: Metadata = {
   title: "Hongchray Song — Web Developer",
