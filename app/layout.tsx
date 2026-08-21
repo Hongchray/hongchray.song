@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { fontVariables } from "@/lib/fonts";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { LangProvider } from "@/context/LangContext";
 
 export const metadata: Metadata = {
-  title: "Hongchray Song — Full-Stack Developer",
+  title: "Hongchray Song — Web Developer",
   description:
-    "Portfolio of Hongchray Song, a Full-Stack Developer specializing in Laravel, Vue.js, and Next.js.",
+    "Portfolio of Hongchray Song, a Web Developer specializing in Laravel, Vue.js, and Next.js.",
 };
 
 const themeInitScript = `
