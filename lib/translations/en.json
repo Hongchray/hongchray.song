@@ -8,7 +8,7 @@
   },
   "hero": {
     "greeting": "whoami",
-    "role": "Full-Stack Developer",
+    "role": "Web Developer",
     "location": "Phnom Penh, Cambodia",
     "tagline": "I build fast, maintainable web apps with Laravel, Vue.js and Next.js — from database schema to pixel-perfect UI.",
     "cta_primary": "View work",
