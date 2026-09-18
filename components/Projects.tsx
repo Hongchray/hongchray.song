@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <motion.section
       id="projects"
-      className="border-b border-border px-5 py-20"
+      className="border-b border-border px-5 py-20 mt-[25px]"
       initial={{ opacity: 0, y: 60 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: false, amount: 0.15 }}

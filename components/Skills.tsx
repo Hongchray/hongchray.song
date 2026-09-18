@@ -89,7 +89,8 @@ export default function Skills() {
   return (
     <motion.section
       id="skills"
-      className="border-b border-border px-5 py-20"
+            className="border-b border-border px-5 py-20"
+
       variants={sectionVariants}
       initial="hidden"
       whileInView="visible"

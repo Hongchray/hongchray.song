@@ -235,7 +235,7 @@ export default function Hero() {
   return (
     <motion.section
       id="hero"
-      className="bg-dot-grid relative overflow-hidden border-b border-border px-5 pb-20 pt-16 sm:pt-24"
+      className="bg-dot-grid relative overflow-hidden border-b border-border px-5 pb-20 pt-16 sm:pt-24 mt-[50px]"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
@@ -474,7 +474,7 @@ export default function Hero() {
               {t("hero.cta_secondary")}
             </motion.a>
             <motion.a
-              href="/cv.pdf"
+              href="/HONGCHRAYSONG.pdf"
               download
               whileHover={{
                 scale: 1.04,
@@ -511,11 +511,12 @@ export default function Hero() {
             }}
           >
             <Image
-              src="/profile-photo.png"
+              src="/main-profile.png"
               alt={personal.name}
               fill
-              sizes="(max-width: 1024px) 320px, 384px"
+              sizes="(max-width: 768px) 85vw, 384px"
               className="object-cover"
+              quality={100}
               priority
             />
 
