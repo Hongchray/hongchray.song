@@ -474,7 +474,7 @@ export default function Hero() {
               {t("hero.cta_secondary")}
             </motion.a>
             <motion.a
-              href="/HONGCHRAYSONG.pdf"
+              href="/HONGCHRAY SONG - Curriculum Vitae.pdf"
               download
               whileHover={{
                 scale: 1.04,
@@ -500,7 +500,7 @@ export default function Hero() {
           className="relative mx-auto w-full max-w-xs lg:mx-0 lg:max-w-sm"
         >
           <motion.div
-            className="relative aspect-square overflow-hidden rounded-2xl border border-border bg-surface2"
+            className="relative aspect-[4/5] w-full max-w-[384px] overflow-hidden rounded-2xl border border-border bg-surface2"
             whileHover={{
               scale: 1.025,
               rotate: -1,
@@ -511,7 +511,7 @@ export default function Hero() {
             }}
           >
             <Image
-              src="/main-profile.png"
+              src="/mainpf.jpg"
               alt={personal.name}
               fill
               sizes="(max-width: 768px) 85vw, 384px"
@@ -520,7 +520,6 @@ export default function Hero() {
               priority
             />
 
-            {/* Image overlay */}
             <motion.div
               className="pointer-events-none absolute inset-0 bg-accent/10"
               animate={{
